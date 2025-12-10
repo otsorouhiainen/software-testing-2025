@@ -7,12 +7,12 @@
  * @returns {Function} Returns `func`.
  */
 function setToString(func, string) {
-  return Object.defineProperty(func, 'toString', {
-    'configurable': true,
-    'enumerable': false,
-    'value': () => string,
-    'writable': true
-  })
+  return Object.defineProperty(func, "toString", {
+    configurable: true,
+    enumerable: false,
+    value: () => string,
+    writable: true,
+  });
 }
 
-export default setToString
+export default setToString;

@@ -1,4 +1,4 @@
-import isPrototype from './isPrototype.js'
+import isPrototype from "./isPrototype.js";
 
 /**
  * Initializes an object clone.
@@ -8,9 +8,9 @@ import isPrototype from './isPrototype.js'
  * @returns {Object} Returns the initialized clone.
  */
 function initCloneObject(object) {
-  return (typeof object.constructor === 'function' && !isPrototype(object))
+  return typeof object.constructor === "function" && !isPrototype(object)
     ? Object.create(Object.getPrototypeOf(object))
-    : {}
+    : {};
 }
 
-export default initCloneObject
+export default initCloneObject;

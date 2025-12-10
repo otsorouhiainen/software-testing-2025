@@ -1,11 +1,10 @@
-import ListCache from './ListCache.js'
-import MapCache from './MapCache.js'
+import ListCache from "./ListCache.js";
+import MapCache from "./MapCache.js";
 
 /** Used as the size to enable large array optimizations. */
-const LARGE_ARRAY_SIZE = 200
+const LARGE_ARRAY_SIZE = 200;
 
 class Stack {
-
   /**
    * Creates a stack cache object to store key-value pairs.
    *
@@ -14,8 +13,8 @@ class Stack {
    * @param {Array} [entries] The key-value pairs to cache.
    */
   constructor(entries) {
-    const data = this.__data__ = new ListCache(entries)
-    this.size = data.size
+    const data = (this.__data__ = new ListCache(entries));
+    this.size = data.size;
   }
 
   /**
@@ -24,8 +23,8 @@ class Stack {
    * @memberOf Stack
    */
   clear() {
-    this.__data__ = new ListCache
-    this.size = 0
+    this.__data__ = new ListCache();
+    this.size = 0;
   }
 
   /**
@@ -36,11 +35,11 @@ class Stack {
    * @returns {boolean} Returns `true` if the entry was removed, else `false`.
    */
   delete(key) {
-    const data = this.__data__
-    const result = data['delete'](key)
+    const data = this.__data__;
+    const result = data["delete"](key);
 
-    this.size = data.size
-    return result
+    this.size = data.size;
+    return result;
   }
 
   /**
@@ -51,7 +50,7 @@ class Stack {
    * @returns {*} Returns the entry value.
    */
   get(key) {
-    return this.__data__.get(key)
+    return this.__data__.get(key);
   }
 
   /**
@@ -62,7 +61,7 @@ class Stack {
    * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
    */
   has(key) {
-    return this.__data__.has(key)
+    return this.__data__.has(key);
   }
 
   /**
@@ -74,20 +73,20 @@ class Stack {
    * @returns {Object} Returns the stack cache instance.
    */
   set(key, value) {
-    let data = this.__data__
+    let data = this.__data__;
     if (data instanceof ListCache) {
-      const pairs = data.__data__
+      const pairs = data.__data__;
       if (pairs.length < LARGE_ARRAY_SIZE - 1) {
-        pairs.push([key, value])
-        this.size = ++data.size
-        return this
+        pairs.push([key, value]);
+        this.size = ++data.size;
+        return this;
       }
-      data = this.__data__ = new MapCache(pairs)
+      data = this.__data__ = new MapCache(pairs);
     }
-    data.set(key, value)
-    this.size = data.size
-    return this
+    data.set(key, value);
+    this.size = data.size;
+    return this;
   }
 }
 
-export default Stack
+export default Stack;
