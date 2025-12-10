@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1765381920038" clover="3.2.0">
-  <project timestamp="1765381920038" name="All files">
-    <metrics statements="65" coveredstatements="42" conditionals="77" coveredconditionals="36" methods="11" coveredmethods="9" elements="153" coveredelements="87" complexity="0" loc="65" ncloc="65" packages="2" files="9" classes="9"/>
+<coverage generated="1765382455722" clover="3.2.0">
+  <project timestamp="1765382455723" name="All files">
+    <metrics statements="65" coveredstatements="48" conditionals="77" coveredconditionals="45" methods="11" coveredmethods="10" elements="153" coveredelements="103" complexity="0" loc="65" ncloc="65" packages="2" files="9" classes="9"/>
     <package name="src">
-      <metrics statements="32" coveredstatements="26" conditionals="41" coveredconditionals="21" methods="6" coveredmethods="6"/>
+      <metrics statements="32" coveredstatements="30" conditionals="41" coveredconditionals="29" methods="6" coveredmethods="6"/>
       <file name="add.js" path="C:\softwareTestingPro\software-testing-2025\src\add.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="16" count="5" type="stmt"/>
       </file>
       <file name="isObject.js" path="C:\softwareTestingPro\software-testing-2025\src\isObject.js">
         <metrics statements="2" coveredstatements="2" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
-        <line num="25" count="3" type="stmt"/>
-        <line num="26" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="25" count="7" type="stmt"/>
+        <line num="26" count="7" type="cond" truecount="3" falsecount="0"/>
       </file>
       <file name="isSymbol.js" path="C:\softwareTestingPro\software-testing-2025\src\isSymbol.js">
-        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="19" count="15" type="stmt"/>
-        <line num="20" count="15" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="19" count="17" type="stmt"/>
+        <line num="20" count="17" type="stmt"/>
       </file>
       <file name="toNumber.js" path="C:\softwareTestingPro\software-testing-2025\src\toNumber.js">
-        <metrics statements="18" coveredstatements="13" conditionals="22" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <metrics statements="18" coveredstatements="17" conditionals="22" coveredconditionals="14" methods="1" coveredmethods="1"/>
         <line num="5" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
-        <line num="45" count="3" type="cond" truecount="1" falsecount="1"/>
-        <line num="46" count="0" type="stmt"/>
-        <line num="48" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="45" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="48" count="5" type="cond" truecount="1" falsecount="1"/>
         <line num="49" count="0" type="stmt"/>
-        <line num="51" count="3" type="cond" truecount="1" falsecount="1"/>
-        <line num="52" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="53" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="55" count="3" type="cond" truecount="1" falsecount="1"/>
-        <line num="56" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="58" count="3" type="stmt"/>
-        <line num="59" count="3" type="stmt"/>
-        <line num="60" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="51" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="53" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="55" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="58" count="4" type="stmt"/>
+        <line num="59" count="4" type="stmt"/>
+        <line num="60" count="4" type="cond" truecount="3" falsecount="1"/>
       </file>
       <file name="toString.js" path="C:\softwareTestingPro\software-testing-2025\src\toString.js">
         <metrics statements="9" coveredstatements="8" conditionals="12" coveredconditionals="8" methods="2" coveredmethods="2"/>
@@ -53,7 +53,7 @@
       </file>
     </package>
     <package name="src..internal">
-      <metrics statements="33" coveredstatements="16" conditionals="36" coveredconditionals="15" methods="5" coveredmethods="3"/>
+      <metrics statements="33" coveredstatements="18" conditionals="36" coveredconditionals="16" methods="5" coveredmethods="4"/>
       <file name="baseToNumber.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\baseToNumber.js">
         <metrics statements="6" coveredstatements="3" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="4" count="1" type="stmt"/>
@@ -93,11 +93,11 @@
         <line num="30" count="5" type="stmt"/>
       </file>
       <file name="getTag.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\getTag.js">
-        <metrics statements="4" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="4" coveredstatements="3" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
-        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="2" type="cond" truecount="1" falsecount="1"/>
         <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="14" count="0" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
       </file>
     </package>
   </project>
