@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1765555365610" clover="3.2.0">
-  <project timestamp="1765555365611" name="All files">
+<coverage generated="1765555903518" clover="3.2.0">
+  <project timestamp="1765555903518" name="All files">
     <metrics statements="350" coveredstatements="273" conditionals="331" coveredconditionals="190" methods="56" coveredmethods="44" elements="737" coveredelements="507" complexity="0" loc="350" ncloc="350" packages="2" files="50" classes="50"/>
     <package name="src">
       <metrics statements="116" coveredstatements="92" conditionals="145" coveredconditionals="97" methods="25" coveredmethods="20"/>
-      <file name="add.js" path="C:\koulu\s-testing\software-testing-2025\src\add.js">
+      <file name="add.js" path="C:\softwareTestingPro\software-testing-2025\src\add.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="16" count="5" type="stmt"/>
       </file>
-      <file name="capitalize.js" path="C:\koulu\s-testing\software-testing-2025\src\capitalize.js">
+      <file name="capitalize.js" path="C:\softwareTestingPro\software-testing-2025\src\capitalize.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="17" count="10" type="stmt"/>
       </file>
-      <file name="filter.js" path="C:\koulu\s-testing\software-testing-2025\src\filter.js">
+      <file name="filter.js" path="C:\softwareTestingPro\software-testing-2025\src\filter.js">
         <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="25" count="6" type="stmt"/>
         <line num="26" count="6" type="stmt"/>
@@ -24,24 +24,24 @@
         <line num="33" count="4" type="stmt"/>
         <line num="36" count="6" type="stmt"/>
       </file>
-      <file name="get.js" path="C:\koulu\s-testing\software-testing-2025\src\get.js">
+      <file name="get.js" path="C:\softwareTestingPro\software-testing-2025\src\get.js">
         <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="28" count="9" type="cond" truecount="2" falsecount="0"/>
         <line num="29" count="9" type="cond" truecount="2" falsecount="0"/>
       </file>
-      <file name="isArguments.js" path="C:\koulu\s-testing\software-testing-2025\src\isArguments.js">
+      <file name="isArguments.js" path="C:\softwareTestingPro\software-testing-2025\src\isArguments.js">
         <metrics statements="1" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
-      <file name="isArrayLike.js" path="C:\koulu\s-testing\software-testing-2025\src\isArrayLike.js">
+      <file name="isArrayLike.js" path="C:\softwareTestingPro\software-testing-2025\src\isArrayLike.js">
         <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
         <line num="27" count="43" type="cond" truecount="3" falsecount="0"/>
       </file>
-      <file name="isArrayLikeObject.js" path="C:\koulu\s-testing\software-testing-2025\src\isArrayLikeObject.js">
+      <file name="isArrayLikeObject.js" path="C:\softwareTestingPro\software-testing-2025\src\isArrayLikeObject.js">
         <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="28" count="28" type="cond" truecount="2" falsecount="0"/>
       </file>
-      <file name="isBuffer.js" path="C:\koulu\s-testing\software-testing-2025\src\isBuffer.js">
+      <file name="isBuffer.js" path="C:\softwareTestingPro\software-testing-2025\src\isBuffer.js">
         <metrics statements="6" coveredstatements="6" conditionals="17" coveredconditionals="14" methods="1" coveredmethods="0"/>
         <line num="5" count="2" type="cond" truecount="4" falsecount="0"/>
         <line num="12" count="2" type="cond" truecount="5" falsecount="0"/>
@@ -50,7 +50,7 @@
         <line num="25" count="2" type="cond" truecount="1" falsecount="1"/>
         <line num="42" count="2" type="cond" truecount="1" falsecount="1"/>
       </file>
-      <file name="isEmpty.js" path="C:\koulu\s-testing\software-testing-2025\src\isEmpty.js">
+      <file name="isEmpty.js" path="C:\softwareTestingPro\software-testing-2025\src\isEmpty.js">
         <metrics statements="14" coveredstatements="13" conditionals="19" coveredconditionals="14" methods="1" coveredmethods="1"/>
         <line num="9" count="1" type="stmt"/>
         <line num="46" count="17" type="cond" truecount="2" falsecount="0"/>
@@ -67,26 +67,26 @@
         <line num="69" count="1" type="stmt"/>
         <line num="72" count="6" type="stmt"/>
       </file>
-      <file name="isLength.js" path="C:\koulu\s-testing\software-testing-2025\src\isLength.js">
+      <file name="isLength.js" path="C:\softwareTestingPro\software-testing-2025\src\isLength.js">
         <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="2" count="3" type="stmt"/>
         <line num="29" count="43" type="stmt"/>
       </file>
-      <file name="isObject.js" path="C:\koulu\s-testing\software-testing-2025\src\isObject.js">
+      <file name="isObject.js" path="C:\softwareTestingPro\software-testing-2025\src\isObject.js">
         <metrics statements="2" coveredstatements="2" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
         <line num="25" count="7" type="stmt"/>
         <line num="26" count="7" type="cond" truecount="3" falsecount="0"/>
       </file>
-      <file name="isObjectLike.js" path="C:\koulu\s-testing\software-testing-2025\src\isObjectLike.js">
+      <file name="isObjectLike.js" path="C:\softwareTestingPro\software-testing-2025\src\isObjectLike.js">
         <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="24" count="28" type="cond" truecount="2" falsecount="0"/>
       </file>
-      <file name="isSymbol.js" path="C:\koulu\s-testing\software-testing-2025\src\isSymbol.js">
+      <file name="isSymbol.js" path="C:\softwareTestingPro\software-testing-2025\src\isSymbol.js">
         <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="19" count="27" type="stmt"/>
         <line num="20" count="27" type="stmt"/>
       </file>
-      <file name="isTypedArray.js" path="C:\koulu\s-testing\software-testing-2025\src\isTypedArray.js">
+      <file name="isTypedArray.js" path="C:\softwareTestingPro\software-testing-2025\src\isTypedArray.js">
         <metrics statements="5" coveredstatements="3" conditionals="6" coveredconditionals="3" methods="2" coveredmethods="0"/>
         <line num="7" count="2" type="stmt"/>
         <line num="10" count="2" type="cond" truecount="2" falsecount="0"/>
@@ -94,11 +94,11 @@
         <line num="28" count="0" type="stmt"/>
         <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
-      <file name="keys.js" path="C:\koulu\s-testing\software-testing-2025\src\keys.js">
+      <file name="keys.js" path="C:\softwareTestingPro\software-testing-2025\src\keys.js">
         <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="32" count="6" type="cond" truecount="1" falsecount="1"/>
       </file>
-      <file name="memoize.js" path="C:\koulu\s-testing\software-testing-2025\src\memoize.js">
+      <file name="memoize.js" path="C:\softwareTestingPro\software-testing-2025\src\memoize.js">
         <metrics statements="13" coveredstatements="11" conditionals="13" coveredconditionals="8" methods="2" coveredmethods="2"/>
         <line num="44" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="48" count="0" type="stmt"/>
@@ -114,13 +114,13 @@
         <line num="62" count="1" type="stmt"/>
         <line num="65" count="1" type="stmt"/>
       </file>
-      <file name="reduce.js" path="C:\koulu\s-testing\software-testing-2025\src\reduce.js">
+      <file name="reduce.js" path="C:\softwareTestingPro\software-testing-2025\src\reduce.js">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="39" count="28" type="cond" truecount="2" falsecount="0"/>
-        <line num="40" count="28" type="stmt"/>
-        <line num="41" count="28" type="stmt"/>
+        <line num="39" count="27" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="27" type="stmt"/>
+        <line num="41" count="27" type="stmt"/>
       </file>
-      <file name="slice.js" path="C:\koulu\s-testing\software-testing-2025\src\slice.js">
+      <file name="slice.js" path="C:\softwareTestingPro\software-testing-2025\src\slice.js">
         <metrics statements="16" coveredstatements="0" conditionals="16" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -139,7 +139,7 @@
         <line num="41" count="0" type="stmt"/>
         <line num="43" count="0" type="stmt"/>
       </file>
-      <file name="toNumber.js" path="C:\koulu\s-testing\software-testing-2025\src\toNumber.js">
+      <file name="toNumber.js" path="C:\softwareTestingPro\software-testing-2025\src\toNumber.js">
         <metrics statements="18" coveredstatements="17" conditionals="22" coveredconditionals="14" methods="1" coveredmethods="1"/>
         <line num="5" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
@@ -160,7 +160,7 @@
         <line num="59" count="4" type="stmt"/>
         <line num="60" count="4" type="cond" truecount="3" falsecount="1"/>
       </file>
-      <file name="toString.js" path="C:\koulu\s-testing\software-testing-2025\src\toString.js">
+      <file name="toString.js" path="C:\softwareTestingPro\software-testing-2025\src\toString.js">
         <metrics statements="9" coveredstatements="8" conditionals="12" coveredconditionals="8" methods="2" coveredmethods="2"/>
         <line num="4" count="2" type="stmt"/>
         <line num="27" count="31" type="cond" truecount="2" falsecount="0"/>
@@ -172,24 +172,24 @@
         <line num="37" count="16" type="stmt"/>
         <line num="38" count="16" type="cond" truecount="2" falsecount="2"/>
       </file>
-      <file name="upperFirst.js" path="C:\koulu\s-testing\software-testing-2025\src\upperFirst.js">
+      <file name="upperFirst.js" path="C:\softwareTestingPro\software-testing-2025\src\upperFirst.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="19" count="1" type="stmt"/>
       </file>
-      <file name="words.js" path="C:\koulu\s-testing\software-testing-2025\src\words.js">
+      <file name="words.js" path="C:\softwareTestingPro\software-testing-2025\src\words.js">
         <metrics statements="7" coveredstatements="7" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2"/>
         <line num="3" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="31" count="9" type="cond" truecount="2" falsecount="0"/>
-        <line num="32" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="31" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="7" type="cond" truecount="2" falsecount="0"/>
         <line num="35" count="7" type="cond" truecount="2" falsecount="0"/>
         <line num="37" count="1" type="cond" truecount="1" falsecount="1"/>
       </file>
     </package>
     <package name="src..internal">
       <metrics statements="234" coveredstatements="181" conditionals="186" coveredconditionals="93" methods="31" coveredmethods="24"/>
-      <file name="arrayLikeKeys.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\arrayLikeKeys.js">
+      <file name="arrayLikeKeys.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\arrayLikeKeys.js">
         <metrics statements="15" coveredstatements="1" conditionals="25" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="7" count="1" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
@@ -207,21 +207,21 @@
         <line num="40" count="0" type="stmt"/>
         <line num="43" count="0" type="stmt"/>
       </file>
-      <file name="arrayReduce.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\arrayReduce.js">
+      <file name="arrayReduce.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\arrayReduce.js">
         <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
-        <line num="13" count="19" type="stmt"/>
-        <line num="14" count="19" type="cond" truecount="1" falsecount="1"/>
-        <line num="16" count="19" type="cond" truecount="4" falsecount="0"/>
+        <line num="13" count="18" type="stmt"/>
+        <line num="14" count="18" type="cond" truecount="1" falsecount="1"/>
+        <line num="16" count="18" type="cond" truecount="4" falsecount="0"/>
         <line num="17" count="4" type="stmt"/>
-        <line num="19" count="19" type="stmt"/>
-        <line num="20" count="51" type="stmt"/>
-        <line num="22" count="19" type="stmt"/>
+        <line num="19" count="18" type="stmt"/>
+        <line num="20" count="48" type="stmt"/>
+        <line num="22" count="18" type="stmt"/>
       </file>
-      <file name="asciiToArray.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\asciiToArray.js">
+      <file name="asciiToArray.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\asciiToArray.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="9" count="0" type="stmt"/>
       </file>
-      <file name="baseEach.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\baseEach.js">
+      <file name="baseEach.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\baseEach.js">
         <metrics statements="11" coveredstatements="4" conditionals="6" coveredconditionals="3" methods="1" coveredmethods="1"/>
         <line num="13" count="9" type="cond" truecount="2" falsecount="0"/>
         <line num="14" count="3" type="stmt"/>
@@ -235,7 +235,7 @@
         <line num="25" count="0" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
       </file>
-      <file name="baseFor.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\baseFor.js">
+      <file name="baseFor.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\baseFor.js">
         <metrics statements="9" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="13" count="6" type="stmt"/>
         <line num="14" count="6" type="stmt"/>
@@ -247,11 +247,11 @@
         <line num="21" count="0" type="stmt"/>
         <line num="24" count="6" type="stmt"/>
       </file>
-      <file name="baseForOwn.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\baseForOwn.js">
+      <file name="baseForOwn.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\baseForOwn.js">
         <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="13" count="6" type="cond" truecount="2" falsecount="0"/>
       </file>
-      <file name="baseGet.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\baseGet.js">
+      <file name="baseGet.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\baseGet.js">
         <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="13" count="7" type="stmt"/>
         <line num="15" count="7" type="stmt"/>
@@ -260,13 +260,13 @@
         <line num="19" count="17" type="stmt"/>
         <line num="21" count="7" type="cond" truecount="4" falsecount="0"/>
       </file>
-      <file name="baseReduce.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\baseReduce.js">
+      <file name="baseReduce.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\baseReduce.js">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="15" count="9" type="stmt"/>
         <line num="16" count="11" type="cond" truecount="2" falsecount="0"/>
         <line num="20" count="9" type="stmt"/>
       </file>
-      <file name="baseToNumber.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\baseToNumber.js">
+      <file name="baseToNumber.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\baseToNumber.js">
         <metrics statements="6" coveredstatements="3" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="4" count="1" type="stmt"/>
         <line num="15" count="10" type="cond" truecount="1" falsecount="1"/>
@@ -275,7 +275,7 @@
         <line num="19" count="0" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
       </file>
-      <file name="baseToString.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\baseToString.js">
+      <file name="baseToString.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\baseToString.js">
         <metrics statements="10" coveredstatements="2" conditionals="12" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="4" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
@@ -288,19 +288,19 @@
         <line num="29" count="0" type="stmt"/>
         <line num="30" count="0" type="cond" truecount="0" falsecount="4"/>
       </file>
-      <file name="castPath.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\castPath.js">
+      <file name="castPath.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\castPath.js">
         <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="13" count="7" type="cond" truecount="2" falsecount="0"/>
         <line num="14" count="1" type="stmt"/>
         <line num="16" count="6" type="cond" truecount="2" falsecount="0"/>
       </file>
-      <file name="castSlice.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\castSlice.js">
+      <file name="castSlice.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\castSlice.js">
         <metrics statements="3" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="13" count="0" type="stmt"/>
         <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="15" count="0" type="cond" truecount="0" falsecount="4"/>
       </file>
-      <file name="createCaseFirst.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\createCaseFirst.js">
+      <file name="createCaseFirst.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\createCaseFirst.js">
         <metrics statements="7" coveredstatements="7" conditionals="8" coveredconditionals="5" methods="2" coveredmethods="2"/>
         <line num="13" count="1" type="stmt"/>
         <line num="14" count="10" type="cond" truecount="2" falsecount="0"/>
@@ -310,7 +310,7 @@
         <line num="22" count="9" type="cond" truecount="1" falsecount="1"/>
         <line num="26" count="9" type="stmt"/>
       </file>
-      <file name="createMathOperation.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\createMathOperation.js">
+      <file name="createMathOperation.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\createMathOperation.js">
         <metrics statements="13" coveredstatements="10" conditionals="16" coveredconditionals="14" methods="2" coveredmethods="2"/>
         <line num="13" count="1" type="stmt"/>
         <line num="14" count="7" type="cond" truecount="4" falsecount="0"/>
@@ -326,18 +326,18 @@
         <line num="28" count="5" type="stmt"/>
         <line num="30" count="5" type="stmt"/>
       </file>
-      <file name="freeGlobal.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\freeGlobal.js">
+      <file name="freeGlobal.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\freeGlobal.js">
         <metrics statements="1" coveredstatements="1" conditionals="4" coveredconditionals="4" methods="0" coveredmethods="0"/>
         <line num="3" count="2" type="cond" truecount="4" falsecount="0"/>
       </file>
-      <file name="getTag.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\getTag.js">
+      <file name="getTag.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\getTag.js">
         <metrics statements="4" coveredstatements="3" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="7" type="stmt"/>
         <line num="11" count="13" type="cond" truecount="1" falsecount="1"/>
         <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="14" count="13" type="stmt"/>
       </file>
-      <file name="hasUnicode.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\hasUnicode.js">
+      <file name="hasUnicode.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\hasUnicode.js">
         <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -351,7 +351,7 @@
         <line num="20" count="1" type="stmt"/>
         <line num="32" count="9" type="stmt"/>
       </file>
-      <file name="isIndex.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\isIndex.js">
+      <file name="isIndex.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\isIndex.js">
         <metrics statements="5" coveredstatements="2" conditionals="9" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="2" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
@@ -359,7 +359,7 @@
         <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="19" count="0" type="stmt"/>
       </file>
-      <file name="isKey.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\isKey.js">
+      <file name="isKey.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\isKey.js">
         <metrics statements="8" coveredstatements="6" conditionals="12" coveredconditionals="10" methods="1" coveredmethods="1"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
@@ -370,14 +370,14 @@
         <line num="26" count="0" type="stmt"/>
         <line num="28" count="6" type="stmt"/>
       </file>
-      <file name="isPrototype.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\isPrototype.js">
+      <file name="isPrototype.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\isPrototype.js">
         <metrics statements="4" coveredstatements="4" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="12" count="7" type="cond" truecount="2" falsecount="0"/>
         <line num="13" count="7" type="cond" truecount="3" falsecount="0"/>
         <line num="15" count="7" type="stmt"/>
       </file>
-      <file name="memoizeCapped.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\memoizeCapped.js">
+      <file name="memoizeCapped.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\memoizeCapped.js">
         <metrics statements="7" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <line num="4" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
@@ -387,7 +387,7 @@
         <line num="20" count="5" type="stmt"/>
         <line num="23" count="1" type="stmt"/>
       </file>
-      <file name="nodeTypes.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\nodeTypes.js">
+      <file name="nodeTypes.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\nodeTypes.js">
         <metrics statements="8" coveredstatements="8" conditionals="21" coveredconditionals="17" methods="1" coveredmethods="1"/>
         <line num="5" count="2" type="cond" truecount="4" falsecount="0"/>
         <line num="12" count="2" type="cond" truecount="5" falsecount="0"/>
@@ -398,17 +398,17 @@
         <line num="30" count="2" type="cond" truecount="3" falsecount="0"/>
         <line num="31" count="2" type="cond" truecount="1" falsecount="1"/>
       </file>
-      <file name="root.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\root.js">
+      <file name="root.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\root.js">
         <metrics statements="3" coveredstatements="3" conditionals="12" coveredconditionals="6" methods="0" coveredmethods="0"/>
         <line num="6" count="2" type="cond" truecount="4" falsecount="0"/>
         <line num="13" count="2" type="cond" truecount="1" falsecount="3"/>
         <line num="17" count="2" type="cond" truecount="1" falsecount="3"/>
       </file>
-      <file name="stringToArray.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\stringToArray.js">
+      <file name="stringToArray.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\stringToArray.js">
         <metrics statements="1" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
-      <file name="stringToPath.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\stringToPath.js">
+      <file name="stringToPath.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\stringToPath.js">
         <metrics statements="15" coveredstatements="13" conditionals="6" coveredconditionals="4" methods="2" coveredmethods="2"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
@@ -426,7 +426,7 @@
         <line num="42" count="14" type="stmt"/>
         <line num="44" count="5" type="stmt"/>
       </file>
-      <file name="toKey.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\toKey.js">
+      <file name="toKey.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\toKey.js">
         <metrics statements="5" coveredstatements="3" conditionals="8" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="4" count="1" type="stmt"/>
         <line num="14" count="17" type="cond" truecount="2" falsecount="2"/>
@@ -434,7 +434,7 @@
         <line num="17" count="0" type="stmt"/>
         <line num="18" count="0" type="cond" truecount="0" falsecount="4"/>
       </file>
-      <file name="unicodeToArray.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\unicodeToArray.js">
+      <file name="unicodeToArray.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\unicodeToArray.js">
         <metrics statements="24" coveredstatements="23" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -461,7 +461,7 @@
         <line num="35" count="1" type="stmt"/>
         <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
-      <file name="unicodeWords.js" path="C:\koulu\s-testing\software-testing-2025\src\.internal\unicodeWords.js">
+      <file name="unicodeWords.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\unicodeWords.js">
         <metrics statements="43" coveredstatements="43" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
