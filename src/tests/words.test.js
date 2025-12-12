@@ -10,6 +10,13 @@ describe("words", () => {
     expect(words("café résumé")).toEqual(["café", "résumé"]);
   });
 
+   test("handles different types of chars including å, ä, ö", () => {
+  expect(words("Skagenröra er inte så godt"))
+    .toStrictEqual(["Skagenröra", "er", "inte", "så", "godt"]);
+  });
+
+
+
   test("handles camelCase", () => {
     expect(words("camelCaseWord")).toEqual(["camel", "Case", "Word"]);
   });
