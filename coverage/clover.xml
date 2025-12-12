@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1765382455722" clover="3.2.0">
-  <project timestamp="1765382455723" name="All files">
-    <metrics statements="65" coveredstatements="48" conditionals="77" coveredconditionals="45" methods="11" coveredmethods="10" elements="153" coveredelements="103" complexity="0" loc="65" ncloc="65" packages="2" files="9" classes="9"/>
+<coverage generated="1765525084088" clover="3.2.0">
+  <project timestamp="1765525084089" name="All files">
+    <metrics statements="74" coveredstatements="57" conditionals="81" coveredconditionals="49" methods="12" coveredmethods="11" elements="167" coveredelements="117" complexity="0" loc="74" ncloc="74" packages="2" files="10" classes="10"/>
     <package name="src">
-      <metrics statements="32" coveredstatements="30" conditionals="41" coveredconditionals="29" methods="6" coveredmethods="6"/>
+      <metrics statements="41" coveredstatements="39" conditionals="45" coveredconditionals="33" methods="7" coveredmethods="7"/>
       <file name="add.js" path="C:\softwareTestingPro\software-testing-2025\src\add.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="16" count="5" type="stmt"/>
+      </file>
+      <file name="filter.js" path="C:\softwareTestingPro\software-testing-2025\src\filter.js">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="27" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="31" count="10" type="stmt"/>
+        <line num="32" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
       </file>
       <file name="isObject.js" path="C:\softwareTestingPro\software-testing-2025\src\isObject.js">
         <metrics statements="2" coveredstatements="2" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
