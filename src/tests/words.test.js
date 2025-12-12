@@ -21,6 +21,7 @@ describe("words", () => {
   test("handles alphanumeric strings", () => {
     expect(words("test123abc456")).not.toEqual([]);
   });
+  
 
   test("handles only special characters", () => {
     expect(words("!@#$%^&*()")).toEqual([]);
