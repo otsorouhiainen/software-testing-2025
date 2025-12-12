@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for src/.internal/nodeTypes.js</title>
+    <title>Code coverage report for src/.internal/hasUnicode.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../prettify.css" />
     <link rel="stylesheet" href="../../base.css" />
@@ -19,20 +19,20 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">src/.internal</a> nodeTypes.js</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">src/.internal</a> hasUnicode.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>8/8</span>
+                <span class='fraction'>11/11</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">80.95% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>17/21</span>
+                <span class='fraction'>0/0</span>
             </div>
         
             
@@ -46,7 +46,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>8/8</span>
+                <span class='fraction'>11/11</span>
             </div>
         
             
@@ -98,23 +98,15 @@
 <a name='L33'></a><a href='#L33'>33</a>
 <a name='L34'></a><a href='#L34'>34</a>
 <a name='L35'></a><a href='#L35'>35</a>
-<a name='L36'></a><a href='#L36'>36</a>
-<a name='L37'></a><a href='#L37'>37</a>
-<a name='L38'></a><a href='#L38'>38</a>
-<a name='L39'></a><a href='#L39'>39</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L36'></a><a href='#L36'>36</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -126,12 +118,6 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -139,44 +125,49 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import freeGlobal from "./freeGlobal.js";
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/** Used to compose unicode character classes. */
+const rsAstralRange = "\\ud800-\\udfff";
+const rsComboMarksRange = "\\u0300-\\u036f";
+const reComboHalfMarksRange = "\\ufe20-\\ufe2f";
+const rsComboSymbolsRange = "\\u20d0-\\u20ff";
+const rsComboMarksExtendedRange = "\\u1ab0-\\u1aff";
+const rsComboMarksSupplementRange = "\\u1dc0-\\u1dff";
+const rsComboRange =
+  rsComboMarksRange +
+  reComboHalfMarksRange +
+  rsComboSymbolsRange +
+  rsComboMarksExtendedRange +
+  rsComboMarksSupplementRange;
+const rsVarRange = "\\ufe0e\\ufe0f";
 &nbsp;
-/** Detect free variable `exports`. */
-const freeExports =
-  typeof exports === "object" &amp;&amp;
-  exports !== null &amp;&amp;
-  !exports.nodeType &amp;&amp;
-  exports;
+/** Used to compose unicode capture groups. */
+const rsZWJ = "\\u200d";
 &nbsp;
-/** Detect free variable `module`. */
-const freeModule =
-  freeExports &amp;&amp;
-  typeof module === "object" &amp;&amp;
-  module !== null &amp;&amp;
-  !module.nodeType &amp;&amp;
-  module;
+/** Used to detect strings with [zero-width joiners or code points from the astral planes](http://eev.ee/blog/2015/09/12/dark-corners-of-unicode/). */
+const reHasUnicode = RegExp(
+  `[${rsZWJ + rsAstralRange + rsComboRange + rsVarRange}]`,
+);
 &nbsp;
-/** Detect the popular CommonJS extension `module.exports`. */
-const moduleExports = freeModule &amp;&amp; freeModule.exports === freeExports;
+/**
+ * Checks if `string` contains Unicode symbols.
+ *
+ * @private
+ * @param {string} string The string to inspect.
+ * @returns {boolean} Returns `true` if a symbol is found, else `false`.
+ */
+function hasUnicode(string) {
+  return reHasUnicode.test(string);
+}
 &nbsp;
-/** Detect free variable `process` from Node.js. */
-const freeProcess = moduleExports &amp;&amp; freeGlobal.process;
-&nbsp;
-/** Used to access faster Node.js helpers. */
-const nodeTypes = (() =&gt; {
-  try {
-    /* Detect public `util.types` helpers for Node.js v10+. */
-    /* Node.js deprecation code: DEP0103. */
-    const typesHelper =
-      freeModule &amp;&amp; freeModule.require &amp;&amp; freeModule.require("util").types;
-    return typesHelper
-      ? typesHelper
-      : /* Legacy process.binding('util') for Node.js earlier than v10. */
-<span class="branch-1 cbranch-no" title="branch not covered" >        freeProcess &amp;&amp; freeProcess.binding &amp;&amp; freeProcess.binding("util");</span>
-  } catch (e) {}
-})();
-&nbsp;
-export default nodeTypes;
+export default hasUnicode;
 &nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
