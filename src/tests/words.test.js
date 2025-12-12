@@ -1,10 +1,10 @@
 import words from "../words.js";
 
 describe("words", () => {
-  /*test("handles null/undefined input", () => {
+  test("handles null/undefined input", () => {
     expect(words(null)).toEqual([]);
     expect(words(undefined)).toEqual([]);
-  });*/
+  });
 
   test("handles unicode characters", () => {
     expect(words("café résumé")).toEqual(["café", "résumé"]);
@@ -21,7 +21,7 @@ describe("words", () => {
   test("handles alphanumeric strings", () => {
     expect(words("test123abc456")).not.toEqual([]);
   });
-  
+
 
   test("handles only special characters", () => {
     expect(words("!@#$%^&*()")).toEqual([]);
