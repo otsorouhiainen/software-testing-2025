@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1765525437627" clover="3.2.0">
-  <project timestamp="1765525437627" name="All files">
-    <metrics statements="120" coveredstatements="98" conditionals="176" coveredconditionals="119" methods="22" coveredmethods="16" elements="318" coveredelements="233" complexity="0" loc="120" ncloc="120" packages="2" files="21" classes="21"/>
+<coverage generated="1765526169288" clover="3.2.0">
+  <project timestamp="1765526169288" name="All files">
+    <metrics statements="179" coveredstatements="148" conditionals="231" coveredconditionals="158" methods="33" coveredmethods="27" elements="443" coveredelements="333" complexity="0" loc="179" ncloc="179" packages="2" files="29" classes="29"/>
     <package name="src">
-      <metrics statements="71" coveredstatements="64" conditionals="98" coveredconditionals="71" methods="15" coveredmethods="10"/>
+      <metrics statements="86" coveredstatements="77" conditionals="115" coveredconditionals="83" methods="18" coveredmethods="13"/>
       <file name="add.js" path="C:\softwareTestingPro\software-testing-2025\src\add.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="16" count="5" type="stmt"/>
@@ -19,6 +19,11 @@
         <line num="32" count="10" type="cond" truecount="2" falsecount="0"/>
         <line num="33" count="4" type="stmt"/>
         <line num="36" count="6" type="stmt"/>
+      </file>
+      <file name="get.js" path="C:\softwareTestingPro\software-testing-2025\src\get.js">
+        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="28" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="9" type="cond" truecount="2" falsecount="0"/>
       </file>
       <file name="isArguments.js" path="C:\softwareTestingPro\software-testing-2025\src\isArguments.js">
         <metrics statements="1" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -70,8 +75,8 @@
       </file>
       <file name="isSymbol.js" path="C:\softwareTestingPro\software-testing-2025\src\isSymbol.js">
         <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="19" count="17" type="stmt"/>
-        <line num="20" count="17" type="stmt"/>
+        <line num="19" count="23" type="stmt"/>
+        <line num="20" count="23" type="stmt"/>
       </file>
       <file name="isTypedArray.js" path="C:\softwareTestingPro\software-testing-2025\src\isTypedArray.js">
         <metrics statements="5" coveredstatements="3" conditionals="6" coveredconditionals="3" methods="2" coveredmethods="0"/>
@@ -80,6 +85,22 @@
         <line num="27" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="28" count="0" type="stmt"/>
         <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+      <file name="memoize.js" path="C:\softwareTestingPro\software-testing-2025\src\memoize.js">
+        <metrics statements="13" coveredstatements="11" conditionals="13" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="44" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="52" count="5" type="stmt"/>
+        <line num="54" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="57" count="5" type="stmt"/>
+        <line num="58" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="59" count="5" type="stmt"/>
+        <line num="61" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
       </file>
       <file name="toNumber.js" path="C:\softwareTestingPro\software-testing-2025\src\toNumber.js">
         <metrics statements="18" coveredstatements="17" conditionals="22" coveredconditionals="14" methods="1" coveredmethods="1"/>
@@ -116,7 +137,16 @@
       </file>
     </package>
     <package name="src..internal">
-      <metrics statements="49" coveredstatements="34" conditionals="78" coveredconditionals="48" methods="7" coveredmethods="6"/>
+      <metrics statements="93" coveredstatements="71" conditionals="116" coveredconditionals="75" methods="15" coveredmethods="14"/>
+      <file name="baseGet.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\baseGet.js">
+        <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="18" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="17" type="stmt"/>
+        <line num="21" count="7" type="cond" truecount="4" falsecount="0"/>
+      </file>
       <file name="baseToNumber.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\baseToNumber.js">
         <metrics statements="6" coveredstatements="3" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="4" count="1" type="stmt"/>
@@ -138,6 +168,12 @@
         <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="29" count="0" type="stmt"/>
         <line num="30" count="0" type="cond" truecount="0" falsecount="4"/>
+      </file>
+      <file name="castPath.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\castPath.js">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="13" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="6" type="cond" truecount="2" falsecount="0"/>
       </file>
       <file name="createMathOperation.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\createMathOperation.js">
         <metrics statements="13" coveredstatements="10" conditionals="16" coveredconditionals="14" methods="2" coveredmethods="2"/>
@@ -161,10 +197,21 @@
       </file>
       <file name="getTag.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\getTag.js">
         <metrics statements="4" coveredstatements="3" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="1" count="4" type="stmt"/>
+        <line num="1" count="5" type="stmt"/>
         <line num="11" count="13" type="cond" truecount="1" falsecount="1"/>
         <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="14" count="13" type="stmt"/>
+      </file>
+      <file name="isKey.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\isKey.js">
+        <metrics statements="8" coveredstatements="6" conditionals="12" coveredconditionals="10" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="16" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="20" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
       </file>
       <file name="isPrototype.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\isPrototype.js">
         <metrics statements="4" coveredstatements="4" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
@@ -172,6 +219,16 @@
         <line num="12" count="7" type="cond" truecount="2" falsecount="0"/>
         <line num="13" count="7" type="cond" truecount="3" falsecount="0"/>
         <line num="15" count="7" type="stmt"/>
+      </file>
+      <file name="memoizeCapped.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\memoizeCapped.js">
+        <metrics statements="7" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="17" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
       </file>
       <file name="nodeTypes.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\nodeTypes.js">
         <metrics statements="8" coveredstatements="8" conditionals="21" coveredconditionals="17" methods="1" coveredmethods="1"/>
@@ -189,6 +246,32 @@
         <line num="6" count="1" type="cond" truecount="4" falsecount="0"/>
         <line num="13" count="1" type="cond" truecount="1" falsecount="3"/>
         <line num="17" count="1" type="cond" truecount="1" falsecount="3"/>
+      </file>
+      <file name="stringToPath.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\stringToPath.js">
+        <metrics statements="15" coveredstatements="13" conditionals="6" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
+        <line num="32" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="5" type="stmt"/>
+        <line num="36" count="14" type="stmt"/>
+        <line num="37" count="14" type="cond" truecount="1" falsecount="1"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="42" count="14" type="stmt"/>
+        <line num="44" count="5" type="stmt"/>
+      </file>
+      <file name="toKey.js" path="C:\softwareTestingPro\software-testing-2025\src\.internal\toKey.js">
+        <metrics statements="5" coveredstatements="3" conditionals="8" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="14" count="17" type="cond" truecount="2" falsecount="2"/>
+        <line num="15" count="17" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="4"/>
       </file>
     </package>
   </project>
